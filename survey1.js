@@ -23,10 +23,10 @@ rl.question(`What's your name? Nicknames are also acceptable:`, (name) => {
             rl.question(`What is your superpower? In a few words, tell us what you are amazing at!:`, (superPower) => {
               console.log(`${name} loves listening to ${music} while ${activity}, devouring ${favMeal} for ${typeOfMeal}, prefers ${sport} over any other sport, and is amazing at ${superPower}.`);
               rl.close();
-            })
-          })
-        })
-      })
-    })
-  })
-})
+            });
+          });
+        });
+      });
+    });
+  });
+});
